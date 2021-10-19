@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { NavLink, useParams } from "react-router-dom";
+import {useParams } from "react-router-dom";
 import './ServiceDetail.css';
 
 
@@ -17,19 +17,20 @@ const ServiceDetail = () => {
     }, [showId]);
   
  return (
-   <div>
+   <div className="sdetail">
      <div className="container-fluid">
        <div className="row">
          <div className="col-md-12">
-           <h1>Single Servic</h1>
+           <h1 className="justify-content-center align-items-center sdetail-title-head">
+             Single Service
+           </h1>
            <div className="d-flex justify-content-center align-items-center p-2">
              <img src={showDetail.picture} className="p-2 w-50" alt="" />
            </div>
-           <h3>{showDetail.name}</h3>
+           <h3 className="justify-content-center align-items-center sdetail-title">
+             {showDetail.name}
+           </h3>
            <p className="detail-para">{showDetail.detail}</p>
-           <NavLink className="notfound" to="/">
-             Go To Home Page
-           </NavLink>
          </div>
        </div>
      </div>

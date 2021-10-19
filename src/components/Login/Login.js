@@ -147,7 +147,7 @@ const Login = () => {
                                 <Button variant="primary" size="lg" className="text-uppercase signin_btn" type="submit" block>
                                     {newUser ? 'Sign Up' : 'Sign In'}
                                 </Button>
-                                <p className="text-right mt-2" style={{ fontSize: '.9rem' }}>
+                                <p className="text-center mt-2" style={{ fontSize: '.9rem' }}>
                                     {newUser ?
                                         "Already have an account?"
                                         : "Don't have an account?"
