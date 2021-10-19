@@ -1,0 +1,9 @@
+.btnservice{
+  background: linear-gradient(120deg, #df42b1 0%, #505add 100%);
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  font-weight: 500;
+  padding: 10px 30px;
+}

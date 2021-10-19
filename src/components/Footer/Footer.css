@@ -1,0 +1,32 @@
+#subscribe{
+  background-color: #1eb0ba;
+}
+.form-button{
+  background: linear-gradient(120deg, #df42b1 0%, #505add 100%);
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  font-weight: 500;
+  padding: 10px 30px;
+}
+.formdesign{
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  font-weight: 500;
+  padding: 10px 30px;
+}
+input[placeholder]{
+  padding-left: 20px;
+}
+.footer-bottom {
+  background-color: #151853;
+}
+.ficon{
+  font-size: 18px;
+  color: #ffffff;
+  cursor: pointer;
+  padding-left: 15px;
+}

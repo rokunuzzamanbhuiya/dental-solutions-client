@@ -1,0 +1,86 @@
+.contact{
+    padding-top: 130px;
+    padding-bottom: 80px;
+}
+.contact-title{
+    text-align: center;
+    margin-bottom: 2%; 
+}
+.contact-paragraph{
+    text-align: center;
+    margin: 0px auto;
+    width: 40%;
+    margin-bottom: 4%;  
+}
+.home{
+    text-align: left;
+}
+.email{
+    text-align: left;
+}
+.phone{
+    text-align: left;
+}
+.fas{
+    font-size: 24px;
+    color: #505add;
+}
+.address h5{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 3px 0;
+}
+.address p{
+    color: #777;
+    margin: 0 0 20px;
+    text-decoration: none;
+}
+.message{
+    padding-left: 10%;
+    float: left;
+    width: 50%;
+}
+.form-group {
+    margin-bottom: 25px;
+}
+.form-control{
+    border: 1px solid #df42b1;
+    box-shadow: none;
+    height: 45px;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: 0 7px 13px 0 rgba(72, 194, 78, 0.02), 0 0px 15px 0 rgba(72, 194, 78, 0.09);
+}
+textarea.form-control{
+    resize: none;
+    padding: 14px 12px;
+}
+.form-control:hover {
+    border-width: 1px;
+    border-style: solid;
+}
+.form-control:focus{
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: none;
+    outline: 0 none;
+    box-shadow: 0 7px 21px 0 rgba(0, 0, 0, 0.1);
+}
+#mag{
+    width: 100%;
+    margin-bottom: 30px;
+}
+input[placeholder]{
+    text-align: left;
+    padding-left: 10px;
+}
+.anchor-button{
+    background: linear-gradient(120deg, #df42b1 0%, #505add 100%);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-weight: 500;
+    padding: 10px 30px;
+    text-decoration: none;
+}

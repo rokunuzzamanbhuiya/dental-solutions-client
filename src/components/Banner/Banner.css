@@ -1,0 +1,30 @@
+.bg-color{
+  background-image: url("../../images/slides/slider.jpg"); 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.dentalone{
+  text-align: left;
+}
+.dentaltwo{
+  text-align: right;
+}
+.dentalthree{
+  text-align: left;
+}
+.bannerbtn{
+  background: linear-gradient(120deg, #df42b1 0%, #505add 100%);
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  font-weight: 500;
+  padding: 10px 30px;
+  margin: 10px;
+}
+.banner-para{
+  line-height: 30px;
+}

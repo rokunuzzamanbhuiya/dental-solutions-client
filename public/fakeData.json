@@ -1,0 +1,74 @@
+[
+    {
+    "gender": "female",
+    "name": "Cosmetic Dentistry",
+    "id": "101",
+    "country": "Denmark",
+    "detail": "We offer modern, innovative dentistry in competitive prices in a friendly and professional environment. We provide Orthodontic treatment, Dental Implant and all services of Cosmetic dentistry and General Dentistry. The Romana Dental Clinic is an international standard, dependable and technology driven modern dental clinic. The professionals and expertise are committed to meet all your dental needs in an environment of serene privacy, comfort and professionalism. Best Dental treatment and skilled dentist. We are specialist in Cosmetic Dentistry, Implants, Root canal, Cap & Bridges, Child Tooth Care, Tooth Whitening, Porcelain Veneer, Orthodontic Braces and all types of Dental Treatment.",
+    "age": 28,
+    "mobile": "+91328672",
+    "role": "Developer",
+    "price": "2002",
+    "picture": "https://raw.githubusercontent.com/rokunuzzamanbhuiya/fake-data/main/images/services/intro01.webp"
+    },
+    {
+    "gender": "male",
+    "name": "Pediatric Dentistry",
+    "id": "102",
+    "country": "Denmark",
+    "detail": "Best Dental treatment and skilled dentist. We are specialist in Cosmetic Dentistry, Implants, Root canal, Cap & Bridges, Child Tooth Care, Tooth Whitening, Porcelain Veneer, Orthodontic Braces and all types of Dental Treatment. The Romana Dental Clinic is an international standard, dependable and technology driven modern dental clinic. The professionals and expertise are committed to meet all your dental needs in an environment of serene privacy, comfort and professionalism. We offer modern, innovative dentistry in competitive prices in a friendly and professional environment. We provide Orthodontic treatment, Dental Implant and all services of Cosmetic dentistry and General Dentistry.",
+    "age": 28,
+    "mobile": "+91328673",
+    "role": "Developer",
+    "price": "2003",
+    "picture": "https://raw.githubusercontent.com/rokunuzzamanbhuiya/fake-data/main/images/services/intro02.webp"
+    },
+    {
+    "gender": "female",
+    "name": "Dental Implants",
+    "id": "103",
+    "country": "Denmark",
+    "detail": "We offer modern, innovative dentistry in competitive prices in a friendly and professional environment. We provide Orthodontic treatment, Dental Implant and all services of Cosmetic dentistry and General Dentistry. The Romana Dental Clinic is an international standard, dependable and technology driven modern dental clinic. The professionals and expertise are committed to meet all your dental needs in an environment of serene privacy, comfort and professionalism. Best Dental treatment and skilled dentist. We are specialist in Cosmetic Dentistry, Implants, Root canal, Cap & Bridges, Child Tooth Care, Tooth Whitening, Porcelain Veneer, Orthodontic Braces and all types of Dental Treatment.",
+    "age": 28,
+    "mobile": "+91328672",
+    "role": "Developer",
+    "price": "2002",
+    "picture": "https://raw.githubusercontent.com/rokunuzzamanbhuiya/fake-data/main/images/services/intro03.webp"
+    },
+    {
+    "gender": "male",
+    "name": "Dentistry Cosmetic",
+    "id": "104",
+    "country": "Denmark",
+    "detail": "Best Dental treatment and skilled dentist. We are specialist in Cosmetic Dentistry, Implants, Root canal, Cap & Bridges, Child Tooth Care, Tooth Whitening, Porcelain Veneer, Orthodontic Braces and all types of Dental Treatment. The Romana Dental Clinic is an international standard, dependable and technology driven modern dental clinic. The professionals and expertise are committed to meet all your dental needs in an environment of serene privacy, comfort and professionalism. We offer modern, innovative dentistry in competitive prices in a friendly and professional environment. We provide Orthodontic treatment, Dental Implant and all services of Cosmetic dentistry and General Dentistry.",
+    "age": 28,
+    "mobile": "+91328673",
+    "role": "Developer",
+    "price": "2003",
+    "picture": "https://raw.githubusercontent.com/rokunuzzamanbhuiya/fake-data/main/images/services/intro04.webp"
+    },
+    {
+    "gender": "female",
+    "name": "Dentistry Pediatric",
+    "id": "105",
+    "country": "Denmark",
+    "detail": "We offer modern, innovative dentistry in competitive prices in a friendly and professional environment. We provide Orthodontic treatment, Dental Implant and all services of Cosmetic dentistry and General Dentistry. The Romana Dental Clinic is an international standard, dependable and technology driven modern dental clinic. The professionals and expertise are committed to meet all your dental needs in an environment of serene privacy, comfort and professionalism. Best Dental treatment and skilled dentist. We are specialist in Cosmetic Dentistry, Implants, Root canal, Cap & Bridges, Child Tooth Care, Tooth Whitening, Porcelain Veneer, Orthodontic Braces and all types of Dental Treatment.",
+    "age": 28,
+    "mobile": "+91328672",
+    "role": "Developer",
+    "price": "2002",
+    "picture": "https://raw.githubusercontent.com/rokunuzzamanbhuiya/fake-data/main/images/services/intro05.webp"
+    },
+    {
+    "gender": "male",
+    "name": "Implants Dental",
+    "id": "106",
+    "country": "Denmark",
+    "detail": "Best Dental treatment and skilled dentist. We are specialist in Cosmetic Dentistry, Implants, Root canal, Cap & Bridges, Child Tooth Care, Tooth Whitening, Porcelain Veneer, Orthodontic Braces and all types of Dental Treatment. The Romana Dental Clinic is an international standard, dependable and technology driven modern dental clinic. The professionals and expertise are committed to meet all your dental needs in an environment of serene privacy, comfort and professionalism. We offer modern, innovative dentistry in competitive prices in a friendly and professional environment. We provide Orthodontic treatment, Dental Implant and all services of Cosmetic dentistry and General Dentistry.",
+    "age": 28,
+    "mobile": "+91328673",
+    "role": "Developer",
+    "price": "2003",
+    "picture": "https://raw.githubusercontent.com/rokunuzzamanbhuiya/fake-data/main/images/services/intro06.webp"
+    }      
+]
