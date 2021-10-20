@@ -16,7 +16,7 @@ const About = () => {
           <h1 className="text-center fw-bolder">
             About <span style={{ color: "#1eb0ba" }}>Us</span>
           </h1>
-          <p className="text-center mb-4">
+          <p className="text-center mb-5">
             To contribute to positive change and achieve our <br />{" "}
             sustainability goals with many extraordinary
           </p>
@@ -31,7 +31,7 @@ const About = () => {
                   <hr className="m-2" />
                   <h5>Cosmetic Dentistry</h5>
                   <hr className="m-2" />
-                  <h5>01715223311</h5>
+                  <h5>91715223311</h5>
                   <hr className="m-2" />
                   <div>
                     <i className="fab fa-facebook-square p-2"></i>
@@ -51,7 +51,7 @@ const About = () => {
                   <hr className="m-2" />
                   <h5>Pediatric Dentistry</h5>
                   <hr className="m-2" />
-                  <h5>01715223322</h5>
+                  <h5>91715223322</h5>
                   <hr className="m-2" />
                   <div>
                     <i className="fab fa-facebook-square p-2"></i>
@@ -71,7 +71,7 @@ const About = () => {
                   <hr className="m-2" />
                   <h5>Dental Implants</h5>
                   <hr className="m-2" />
-                  <h5>01715223355</h5>
+                  <h5>91715223355</h5>
                   <hr className="m-2" />
                   <div>
                     <i className="fab fa-facebook-square p-2"></i>
@@ -91,7 +91,7 @@ const About = () => {
                   <hr className="m-2" />
                   <h5>Dentistry Cosmetic</h5>
                   <hr className="m-2" />
-                  <h5>01715223377</h5>
+                  <h5>91715223377</h5>
                   <hr className="m-2" />
                   <div>
                     <i className="fab fa-facebook-square p-2"></i>
@@ -111,7 +111,7 @@ const About = () => {
                   <hr className="m-2" />
                   <h5>Dentistry Pediatric</h5>
                   <hr className="m-2" />
-                  <h5>01715223377</h5>
+                  <h5>91715223377</h5>
                   <hr className="m-2" />
                   <div>
                     <i className="fab fa-facebook-square p-2"></i>

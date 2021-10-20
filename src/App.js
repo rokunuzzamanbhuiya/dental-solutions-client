@@ -18,9 +18,7 @@ import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 export const UserContext = createContext();
 
 function App() {
-  const [loggedInUser, setLoggedInUser] = useState({});
-  const [ticket, setTicket] = useState(100);
-  const [search, setSearch] = useState({});
+  const [loggedInUser, setLoggedInUser] = useState([]);
   const [newUser, setNewUser] = useState(true);
 
   return (
@@ -28,10 +26,6 @@ function App() {
       value={{
         loggedInUser,
         setLoggedInUser,
-        ticket,
-        setTicket,
-        search,
-        setSearch,
         newUser,
         setNewUser,
       }}
@@ -39,24 +33,27 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route path="/login">
-            <Login />
-          </Route>
-          <PrivateRoute path="/about">
-            <About />
-          </PrivateRoute>
           <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/home">
             <Home />
           </Route>
           <Route path="/services">
             <Services />
           </Route>
-          <PrivateRoute path="/contact">
-            <Contact />
-          </PrivateRoute>
           <PrivateRoute path="/servicedetail/:id">
             <ServiceDetail></ServiceDetail>
           </PrivateRoute>
+          <PrivateRoute path="/about">
+            <About />
+          </PrivateRoute>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+          <Route path="/login">
+            <Login />
+          </Route>
           <Route path="*">
             <Error></Error>
           </Route>

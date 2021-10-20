@@ -10,7 +10,7 @@ const Contact = () => {
           <h1 className="text-center fw-bolder">
             Send <span style={{ color: "#1eb0ba" }}>Message</span>
           </h1>
-          <p className="text-center mb-4">
+          <p className="text-center mb-5">
             To contribute to positive change and achieve our <br />{" "}
             sustainability goals with many extraordinary
           </p>

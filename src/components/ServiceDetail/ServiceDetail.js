@@ -1,83 +1,49 @@
 import React, { useEffect, useState } from "react";
-import {useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { useParams } from 'react-router';
 import './ServiceDetail.css';
 
 
-const ServiceDetail = () => {
-  const {showId} = useParams();
-  const [showDetail, setShowDetail] = useState([]);
-  useEffect(() => {
-    fetch("/fakeData.json")
-      .then((res) => res.json())
-      .then((data) => {
-                const foundDetail = data.find(detail => detail.key === showId)
-                setShowDetail(foundDetail);
-                console.log(foundDetail);
-            })
-    }, [showId]);
-  
- return (
-   <div className="sdetail">
-     <div className="container-fluid">
-       <div className="row">
-         <div className="col-md-12">
-           <h1 className="justify-content-center align-items-center sdetail-title-head">
-             Single Service
-           </h1>
-           <div className="d-flex justify-content-center align-items-center p-2">
-             <img src={showDetail.picture} className="p-2 w-50" alt="" />
-           </div>
-           <h3 className="justify-content-center align-items-center sdetail-title">
-             {showDetail.name}
-           </h3>
-           <p className="detail-para">{showDetail.detail}</p>
-         </div>
-       </div>
-     </div>
-   </div>
- );
-};
+  const ServiceDetail = () => {
+  const { detailId } = useParams();
+
+  const [data, setData] = useState([]);
+
+    useEffect(() => {
+      fetch("/fakeData.json")
+        .then((res) => res.json())
+        .then((data) => setData(data));
+    }, []);
+
+    const showDetail = data.filter((fd) => fd.key === detailId);
+    //console.log(showDetail[0]?.name);
+
+    return (
+      <div className="sdetail">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-12">
+              <h2 className="justify-content-center align-items-center sdetail-title-head">
+                Our Special Service
+              </h2>
+              <div className="d-flex justify-content-center align-items-center p-2">
+                <img src={showDetail[0]?.picture} className="p-2 w-50" alt="" />
+              </div>
+              <h3 className="justify-content-center align-items-center sdetail-title">
+                {showDetail[0]?.name}
+              </h3>
+              <p className="text-center detail-para">{showDetail[0]?.detail}</p>
+              <div className="text-center">
+                <Link className="btn btn-danger mt-3 sdetail-btn" to="/">
+                  Go Back
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  };
 
 export default ServiceDetail;
 
-
-// import React, { useEffect, useState } from 'react';
-// import { useParams } from 'react-router';
-// import './Details.css';
-
-
-// const Details = () => {
-//     //using useEffect & State
-//     const { departmentId } = useParams();
-
-//     // const [departmentDetails, setDepartmentDetails] = useState([]);
-//     const [singleDepartment, setSingleDepartment] = useState({});
-
-//     useEffect(() => {
-//         fetch('/departments.json')
-//             .then(res => res.json())
-//             .then(data => {
-//                 const foundDepartment = data.find(department => department.id == departmentId)
-//                 setSingleDepartment(foundDepartment);
-//                 console.log(foundDepartment);
-//             })
-//     }, [departmentId]);
-
-
-//     return (
-//         // Details Section
-//         <div>
-//             <div>
-//                 <div class="card mx-auto mb-5 mt-5">
-//                     <img src={singleDepartment.img} class="details-image" alt="..." />
-//                     <div class="card-body">
-//                         <h5 class="card-title text-info">{singleDepartment.name}</h5>
-//                         <p class="card-text">{singleDepartment.description}</p>
-//                     </div>
-//                 </div>
-//             </div>
-//         </div>
-//     );
-// };
-
-// export default Details;

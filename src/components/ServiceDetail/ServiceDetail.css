@@ -1,6 +1,3 @@
-.detail-para{
-    padding: 0 220px;
-}
 .sdetail{
     padding-top: 68px;
     padding-bottom: 48px;
@@ -18,17 +15,17 @@
     margin: 0px auto;
     margin-bottom: 20px; 
 }
+.detail-para{
+    padding: 0 100px;
+}
 .sdetail-btn{
   font-size: 14px;
   text-decoration: none;
-  text-transform: uppercase;
   background: linear-gradient(120deg, #df42b1 0%, #505add 100%);
   display: inline-block;
   padding: 15px 30px;
   border-radius: 40px;
-  color: #fff;
-  font-weight: 700;
-  margin: 0px auto; 
+  color: #fff; 
 }
 .sdetail-btn:hover{
   color: #fff;
